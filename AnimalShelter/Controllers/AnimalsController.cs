@@ -7,7 +7,7 @@ namespace AnimalShelter.Controllers
 {
   public class AnimalsController : Controller
   {
-    [HttpGet("/Animals")]
+    [HttpGet("/")]
     public ActionResult Index()
     {
       List<Animal> allAnimals = Animal.GetAll();
